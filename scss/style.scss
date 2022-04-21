@@ -1,0 +1,15 @@
+@use 'custom';
+
+// Import components
+@use 'components/animations';
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typograph';
+
+// Import sections (Home)
+@use 'sections/body';
+@use 'sections/navbar';
+@use 'sections/footer';
+
+// Import chat
+@use 'chat/chat';

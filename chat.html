@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta Tag -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="#1 Aplikasi Web (Platform) modern kuis dan belajar pertama di Indonesia">
+        <meta name="author" content="sibar.id team alviansm alvians maulana">
+        <meta name="keywords" content="quiz web application html css javascript bootstrap">
+
+        <!-- Icon & CSS Links -->
+        <link href="/assets/css/style.css" rel="stylesheet">
+        <link href="/assets/css/fontawesome.css" rel="stylesheet">
+
+        <title>Ngobrol | Sibar</title>
+    </head>
+    <body>
+        <!-- Navbar: Notifikasi, Akun (Dropdown), Buat Soal, Donasi -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow sticky-top">
+            <div class="container">
+            <a class="navbar-brand" href="/index.html">
+                <img src="/images/sibar-logo.png" alt="website name logo" width="64px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item mx-2">
+                    <button type="button" class="btn btn-primary position-relative">
+                        <span><i class="fa-solid fa-bell fa-lg"></i></span>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        99+
+                        <span class="visually-hidden">unread messages</span>
+                        </span>
+                    </button>
+                </li>
+                <li class="nav-item mx-2">
+                    <button type="button" class="btn btn-primary position-relative">
+                        <span><i class="fa-solid fa-user-graduate fa-lg"></i></span>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        99+
+                        <span class="visually-hidden">unread messages</span>
+                        </span>
+                    </button>
+                </li>
+                </ul>
+                <button class="btn-rounded rounded-pill btn-sm mx-2">
+                    <span><i class="fa-solid fa-feather-pointed"></i></span> Buat Soal
+                </button>
+                <button class="btn-rounded rounded-pill btn-sm mx-2">
+                    <span><i class="fa-solid fa-gift"></i></span> Dukung
+                </button>
+            </div>
+            </div>
+        </nav>
+
+        <!-- Main section: Chat -->
+        <main class="mt-md-3 mt-3">
+            <div class="container">                
+                <div class="row">
+
+                    <!-- Side Navitgation Person to Chat-->
+                    <div class="col-lg-3 d-none d-lg-block ">
+                    
+                        <!-- Chat Category Desctiption -->
+                        <p class="mb-2">
+                            Teman
+                        </p>
+
+                        <!-- Person to Chat SideNav List -->
+                        <ul class="navbar-nav">
+                    
+                            <!-- Single Person Selection to Chat-->
+                            <button class="btn btn-primary btn-sm mb-2">
+                                <div class="row">
+                                    <div class="col-md-4 m-0 d-flex justify-content-start align-items-center">
+                                        <img src="/images/dummy-pp-1.png" class="m-0" alt="Andi" style="width: 32px; background-color: whitesmoke; border-radius: 50%;">
+                                    </div>
+                                    <div class="col-md-8 m-0 d-flex justify-content-start align-items-center flex-column">
+                                        <div class="m-0">
+                                            <p class="m-0">Andi Ganteng</p>
+                                        </div>
+                                        <div class="m-0">
+                                            <p class="m-0"><small>Online</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </button>
+                            
+                            <!-- Single Person Selection to Chat-->
+                            <button class="btn btn-outline-primary btn-sm mb-2">
+                                <div class="row">
+                                    <div class="col-md-4 m-0 d-flex justify-content-start align-items-center">
+                                        <img src="/images/dummy-pp-1.png" class="m-0" alt="Andi" style="width: 32px; background-color: whitesmoke; border-radius: 50%;">
+                                    </div>
+                                    <div class="col-md-8 m-0 d-flex justify-content-start align-items-center flex-column">
+                                        <div class="m-0">
+                                            <p class="m-0">Budi Ganteng</p>
+                                        </div>
+                                        <div class="m-0">
+                                            <p class="m-0"><small>Offline</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </button>
+
+                            <!-- Single Person Selection to Chat-->
+                            <button class="btn btn-outline-primary btn-sm">
+                                <div class="row">
+                                    <div class="col-md-4 m-0 d-flex justify-content-start align-items-center">
+                                        <img src="/images/dummy-pp-1.png" class="m-0" alt="Andi" style="width: 32px; background-color: whitesmoke; border-radius: 50%;">
+                                    </div>
+                                    <div class="col-md-8 m-0 d-flex justify-content-start align-items-center flex-column">
+                                        <div class="m-0">
+                                            <p class="m-0">Cecep Sakti</p>
+                                        </div>
+                                        <div class="m-0">
+                                            <p class="m-0"><small>Sibuk</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </button>
+
+                        </ul>
+                    
+                    </div>
+
+                    <!-- Main Chat Column -->
+                    <div class="col-lg-9 col-md-12">
+
+                        <div class="container mb-2">
+                            <div class="row g-1">
+                                
+                                <div class="col-md-9">
+                                    <!-- Search -->
+                                    <div class="input-group mb-1">
+                                        <span class="input-group-text" id="basic-addon1">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </span>
+                                        <input type="text" class="form-control" placeholder="Cari" aria-label="Username" aria-describedby="basic-addon1">
+                                    </div>
+                                </div>
+
+                                <div class="col-3">
+                                    <!-- Dropdown Chat Selection -->
+                                    <div class="dropdown chat-dropdown col-md-3">
+                                        <button class="btn btn-primary dropdown-toggle btn-sm" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Andi Ganteng
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            <li><a class="dropdown-item" href="#">Budi G.</a></li>
+                                            <li><a class="dropdown-item" href="#">Cecep S.</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div> <!-- End of top chat container -->
+
+                        <!-- Chat Layout -->
+                        <div class="border border-secondary p-3 d-flex flex-column">
+
+                            <!-- Time Logs -->
+                            <span class="badge bg-secondary chat-time-log">
+                                21 April 2022
+                            </span>
+
+                            <!-- Self Chat -->
+                            <div class="chat-self mb-2">
+                                <p class="chat-self-content m-0 mb-2" id="chat-self-content">
+                                    Halo cung!
+                                </p>
+                                <p class="chat-self-time mt-0">
+                                    <span class="m-0">
+                                        13.21
+                                    </span>
+                                </p>
+                            </div>
+
+                            <!-- Other Chat -->
+                            <div class="chat-other mb-2">
+                                <p class="chat-other-content m-0 mb-2" id="chat-other-content">
+                                    piye?
+                                </p>
+                                <p class="chat-other-time mt-0">
+                                    <span class="m-0">
+                                        13.21
+                                    </span>
+                                </p>
+                            </div>
+
+                            <!-- Input Message & Send Button -->
+                            <div class="input-group col-md-10 col-10">
+                                <input type="text" class="form-control" placeholder="Tulis pesan Anda di sini" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <button class="btn btn-outline-success" type="button" id="button-addon2">
+                                    <span>
+                                        <i class="fa-solid fa-paper-plane"></i>
+                                    </span>
+                                </button>
+                            </div>
+                                
+                        </div>
+                    </div>
+
+                </div>
+            </div> <!-- End of Chat Container-->
+        </main>
+
+        <!-- JavaScript -->
+        <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

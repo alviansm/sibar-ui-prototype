@@ -1,0 +1,26 @@
+@use '../custom' as *;
+
+footer {
+    background-color: $secondary;
+    border: 0.1px solid $secondary;
+    padding-top: 1.125rem;
+    padding-bottom: 0;
+
+    ul {
+        color: $gray-200;
+        li {
+            color: $gray-200;
+            font-weight: 500;
+
+            a {
+              color: $gray-200 !important;
+            }
+        }
+    }
+
+    div {
+        p {
+            color: $white;
+        }
+    }
+}

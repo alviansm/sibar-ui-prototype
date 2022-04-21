@@ -1,0 +1,9 @@
+@use '../custom' as *;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $gray-200;
+}

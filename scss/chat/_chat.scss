@@ -1,0 +1,44 @@
+@use '../custom' as *;
+
+.chat-self {
+    padding: .75rem;
+    background-color: rgb(231, 181, 189);
+}
+
+.chat-self-time {
+    color: $gray-800;
+    font-size: .75rem;
+}
+
+.chat-self-content {
+    text-align: right;
+}
+
+.chat-self-time {
+    text-align: left;
+    margin: 0;
+}
+
+.chat-other {
+    padding: .75rem;
+    background-color: $gray-400;
+}
+
+.chat-other-time {
+    color: $gray-800;
+    font-size: .75rem;
+}
+
+.chat-other-content {
+    text-align: left;
+}
+
+.chat-other-time {
+    text-align: left;
+    margin: 0;
+}
+
+.chat-time-log {
+    margin: .4rem auto;
+    max-width: 128px;
+}
