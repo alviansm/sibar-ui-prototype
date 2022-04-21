@@ -1,8 +1,8 @@
 # Konsep Web-App sibar (Prototype)
 > SaaS Model || Sumber Terbuka? || Gratis? Donatur, Sponsor, Sawer, Iklan
-> Demonstrasi protoype: [Link Demo Klik Di Sini](https://google.com)
+> Demonstrasi protoype: [Link Demo Klik Di Sini](https://alviansm.github.io/sibar-ui-prototype/)
 > Author: Sibar Team
-> Suggestion & Issues: [Discord Server](discord.gg) or [Instagram](https://instagram.com/alviansm)
+> Suggestion & Issues: [Discord Server](https://discord.gg/pRMB2yhE) or [My Instagram](https://instagram.com/alviansm)
 
 ## Concept Features
 - Latihan Soal [Fitur Utama]
